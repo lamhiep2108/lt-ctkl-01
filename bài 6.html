@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="dt" placeholder="nhap so doanh thu(10%)" onchange="doanhthu()">
+<p id="resutl"></p>
+<script>
+    function doanhthu(){
+        let value = document.getElementById("dt").value;
+        document.getElementById("resutl").innerHTML=value/10;
+    }
+</script>
+</body>
+</html>

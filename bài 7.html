@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="input" onchange="dt()" placeholder="Nhap so dien">1 so 4k
+<p id="output"></p>
+<script>
+    function dt(){
+    let value = +document.getElementById("input").value;
+    document.getElementById("output").innerHTML=value*4+'k';}
+
+</script>
+</body>
+</html>
